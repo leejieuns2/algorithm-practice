@@ -1,3 +1,5 @@
+package boj;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -38,7 +40,7 @@ public class Main_1453 {
             }
         }
 
-        // 결과 출력
+
         System.out.println(reject);
     }
 }
