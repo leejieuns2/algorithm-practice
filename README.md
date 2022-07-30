@@ -6,6 +6,7 @@
 ### 1. Backjoon Online Judge
 - https://www.acmicpc.net/
 - [🗂 문제 풀이 코드 바로가기](/src/boj)
+- [🗂 solved.ac](https://solved.ac/profile/leejieuns2)
 
 ### 2. Programmers 코딩테스트 연습
 - https://programmers.co.kr/learn/challenges
