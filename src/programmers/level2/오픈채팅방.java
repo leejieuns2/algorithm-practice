@@ -1,4 +1,4 @@
-package programmers.In_progress;
+package programmers.level2;
 
 import java.util.*;
 
