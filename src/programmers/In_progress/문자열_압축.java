@@ -1,4 +1,4 @@
-package programmers;
+package programmers.In_progress;
 
 public class 문자열_압축 {
 

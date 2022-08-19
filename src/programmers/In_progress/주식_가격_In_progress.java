@@ -1,4 +1,4 @@
-package programmers;
+package programmers.In_progress;
 
 import java.util.Stack;
 
@@ -7,7 +7,8 @@ import java.util.Stack;
  * https://programmers.co.kr/learn/courses/30/lessons/42584
  * */
 
-public class 주식가격 {
+// ....? 틀렸음
+public class 주식_가격_In_progress {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,4 +1,4 @@
-package programmers;
+package programmers.level2;
 
 public class 컬러링북 {
     public static void main(String[] args) {
