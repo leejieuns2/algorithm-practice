@@ -1,4 +1,4 @@
-package programmers.In_progress;
+package programmers.level1;
 
 public class 최소직사각형 {
 
