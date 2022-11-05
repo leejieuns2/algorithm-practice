@@ -17,6 +17,7 @@ public class 최솟값_만들기 {
 
     }
 
+    // 최솟값 * 최댓값 이렇게 곱해야 최소합이 나옴.
     public static int solution(int []A, int []B)
     {
         int answer = 0;
@@ -24,6 +25,7 @@ public class 최솟값_만들기 {
         Arrays.sort(A);
         Arrays.sort(B);
 
+        // Boxing 안하고도 코드 작성 가능
         for(int i = 0; i < A.length; i++) {
             answer += A[i] * B[B.length - 1 - i];
         }
@@ -31,6 +33,7 @@ public class 최솟값_만들기 {
         return answer;
     }
 
+    // 효율성 하나 실패뜨는 코드
     public static int solution_92(int []A, int []B)
     {
         int answer = 0;

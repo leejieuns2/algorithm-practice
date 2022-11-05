@@ -27,6 +27,7 @@ public class 올바른_괄호 {
                 if(sArray[i] == '(') {
                     stack.add('(');
                 } else {
+                    // 빈 스택에 ) 이 먼저 들어갈 경우 짝이 맞지 않음.
                     answer = false;
                     break;
                 }
@@ -34,15 +35,18 @@ public class 올바른_괄호 {
                 if(sArray[i] == '(') {
                     stack.add('(');
                 } else if(sArray[i] == ')') {
+                    // 이미 들어간 괄호와 짝이 맞을경우 둘 다 스택에서 제거
                     if(stack.peek() == '(') {
                         stack.pop();
                     } else {
+                        // 짝이 맞지 않음.
                         answer = false;
                         break;
                     }
                 }
             }
         }
+        // 남아있을 경우 짝이 맞지 않으므로 false
         if(!stack.isEmpty()) {
             answer = false;
         }

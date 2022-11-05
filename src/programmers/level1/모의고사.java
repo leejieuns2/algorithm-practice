@@ -22,6 +22,7 @@ public class 모의고사 {
         int[] array2 = {2, 1, 2, 3, 2, 4, 2, 5};
         int[] array3 = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5};
 
+        // 패턴 별로 정답 개수 찾기
         for(int i = 0; i < answers.length; i++) {
             if(array1[i % array1.length] == answers[i]) {
                 count[0]++;
@@ -41,11 +42,14 @@ public class 모의고사 {
                 max = count[i];
             }
         }
+
+        // Max값 기준으로 answer 찾기
         for (int i = 0; i < count.length; i++) {
             if(count[i] == max) {
                 answer.add(i);
             }
         }
+        // 만약 같은 정답이 있을 경우 정렬
         Collections.sort(answer);
 
         // index는 0부터 시작하므로 +1 해주어야 함.
