@@ -1,4 +1,4 @@
-package programmers.In_progress;
+package programmers.level1;
 
 import java.util.Arrays;
 
