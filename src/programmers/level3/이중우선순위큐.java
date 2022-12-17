@@ -18,6 +18,7 @@ public class 이중우선순위큐 {
     public int[] solution(String[] operations) {
         int[] answer = {0, 0};
         // PriorityQueue 사용하는 것이 핵심인 문제
+        // https://coding-factory.tistory.com/603 참고함.
         PriorityQueue<Integer> minQueue = new PriorityQueue();
         PriorityQueue<Integer> maxQueue = new PriorityQueue<>(Comparator.reverseOrder());
 
