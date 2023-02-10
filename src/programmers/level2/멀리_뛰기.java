@@ -21,7 +21,6 @@ public class 멀리_뛰기 {
         memo = new long[n + 1];
         for(int i = 0; i <= n; i++) {
             if(i <= 2) {
-                // 기본 피보나치와는 조금 다르게 0은 0, 1은 1, 2는 2임. 이후는 피보나치 규칙과 동일.
                 memo[i] = i;
             } else {
                 memo[i] = (memo[i - 1] + memo[i - 2]) % 1234567;
@@ -29,7 +28,7 @@ public class 멀리_뛰기 {
         }
         return memo[n];
     }
-    // 처음에는 제귀로 풀어보려 했는데 잘 안됨. (몇몇 케이스 실패)
+    // 처음에는 재귀로 풀어보려 했는데 잘 안됨. (몇몇 케이스 실패)
 //    public long fibo(int n) {
 //        if(memo[n] != 0) {
 //            return memo[n];
