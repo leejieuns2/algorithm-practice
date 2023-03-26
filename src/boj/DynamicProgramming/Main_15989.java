@@ -1,4 +1,4 @@
-package boj.in_progress;
+package boj.DynamicProgramming;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+
 // 백준 실버 2. 이동하기
 public class Main_11048 {
     static int N, M;
